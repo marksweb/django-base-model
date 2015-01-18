@@ -1,9 +1,7 @@
 from operator import attrgetter
 
-from django.contrib.contenttypes.generic import (
-    GenericRelation,
-    ReverseGenericRelatedObjectsDescriptor
-)
+from django.contrib.contenttypes.generic import GenericRelation
+from django.contrib.contenttypes.fields import ReverseGenericRelatedObjectsDescriptor
 from django.db import connection, router
 
 
